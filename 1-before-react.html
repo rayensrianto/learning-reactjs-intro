@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Belajar DOM</title>
+</head>
+<body>
+    <div id="app"></div>
+</body>
+<script type="text/javascript">
+    const app = document.getElementById('app');
+    const header = document.createElement('h1');
+    const headerContent = document.createTextNode('Bissmillah Belajar React ❤️');
+    header.appendChild(headerContent);
+    app.appendChild(header);
+</script>
+</html>
